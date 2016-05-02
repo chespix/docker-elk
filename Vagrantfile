@@ -42,6 +42,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     sudo usermod -aG docker vagrant
     sudo -u vagrant pip install docker-compose
     sudo docker-compose -f /vagrant/docker-compose.yml up -d
+    mkdir /etc/logstash/conf.d/datasets
+    wget https://recursos-data.buenosaires.gob.ar/ckan2/suaci/SUACI-2016.csv -O /etc/logstash/conf.d/datasets/suaci-2016.csv
+    wget https://recursos-data.buenosaires.gob.ar/ckan2/suaci/suaci-2015.csv -O /etc/logstash/conf.d/datasets/suaci-2015.csv
+    
   SHELL
 
 end

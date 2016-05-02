@@ -5,8 +5,8 @@ Based on
 * http://data.buenosaires.gob.ar/dataset/sistema-unico-de-atencion-ciudadana
 
 ### Requirements
-https://www.virtualbox.org/
-https://www.vagrantup.com/
+* https://www.virtualbox.org/
+* https://www.vagrantup.com/
 
 ### How to run it?
 Download this repo, and then, from a command line prompt inside the repo folder,  execute:

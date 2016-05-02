@@ -17,10 +17,6 @@ Download this repo, and then, from a command line prompt inside the repo folder,
 #### And then access Kibana UI by hitting [http://localhost:5601](http://localhost:5601) with a web browser.
 ##### **TIP: Search for an index named "suaci".
 
-*NOTE*: You'll need to inject data into logstash before being able to create a logstash index in Kibana. Then all you should have to do is to
-hit the create button.
-
-See: https://www.elastic.co/guide/en/kibana/current/setup.html#connect
 
 You can also access:
 * Sense: [http://localhost:5601/app/sense](http://localhost:5601/app/sense)

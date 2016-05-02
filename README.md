@@ -32,8 +32,6 @@ By default, the stack exposes the following ports:
 
 # Configuration
 
-*NOTE*: Configuration is not dynamically reloaded, you will need to restart the stack after any change in the configuration of a component.
-
 ## How can I tune Kibana configuration?
 
 The Kibana default configuration is stored in `kibana/config/kibana.yml`.

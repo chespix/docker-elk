@@ -15,7 +15,7 @@ Download this repo, and then, from a command line prompt inside the repo folder,
 
 
 #### And then access Kibana UI by hitting [http://localhost:5601](http://localhost:5601) with a web browser.
-##### **TIP: Search for an index named "suaci".
+##### TIP: Search for an index named "suaci".
 
 
 You can also access:

@@ -23,16 +23,14 @@ See: https://www.elastic.co/guide/en/kibana/current/setup.html#connect
 You can also access:
 * Sense: [http://localhost:5601/app/sense](http://localhost:5601/app/sense)
 
-<<<<<<< HEAD
+
 *NOTE*: In order to use Sense, you'll need to query the IP address associated to your *network device* instead of localhost.
 =======
->>>>>>> vagrant
 
 By default, the stack exposes the following ports:
 * 9200: Elasticsearch HTTP
 * 9300: Elasticsearch TCP transport
 * 5601: Kibana
-
 
 # Configuration
 

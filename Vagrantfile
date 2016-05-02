@@ -60,8 +60,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     wget https://recursos-data.buenosaires.gob.ar/ckan2/suaci/SUACI-2014.csv -O /vagrant/datasets/suaci-2014.csv 2>&1 > /dev/null
     wget https://recursos-data.buenosaires.gob.ar/ckan2/suaci/suaci-2015.csv -O /vagrant/datasets/suaci-2015.csv 2>&1 > /dev/null
     sudo service logstash restart
-    curl -XPUT http://localhost:9200/.kibana/index-pattern/suaci* -d '{"title" : "suaci*",  "timeFieldName": "EventTime"}'
-    curl -XPUT http://localhost:9200/.kibana/config/4.5.0 -d '{"buildNum":9889, "defaultIndex" : "suaci*"}'
   SHELL
 
 end
